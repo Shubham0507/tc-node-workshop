@@ -4,7 +4,7 @@ const cors = require('cors');
 const connectDB = require('./app/config/mongo');
 const { basicAuth } = require('./app/middleware/basicAuth');
 
-const port = 3001;
+const port = 3000;
 
 const app = express();
 // Middleware
