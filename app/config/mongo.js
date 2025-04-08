@@ -3,7 +3,7 @@ require("dotenv").config();
 
 const connectDB = async () => {
     try {
-        await mongoose.connect("mongodb://localhost:27017/task_management_system", {
+        await mongoose.connect("mongodb+srv://Shubham-Singh:wUJp1A4h8MdmDzEr@tc-cluster.kj4rove.mongodb.net/?retryWrites=true&w=majority&appName=tc-cluster/task-management-system", {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
